@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QUOTIFY - FAVORITE QUOTES FROM YOUR FAVORITE SONGS</title>
+  <link rel="stylesheet" href="Quotify.css" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+ integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <video autoplay muted loop class="bg-video" id="bg-video">
+    <source src="pinterest_video_1759075441.mp4" type="video/mp4" />
+  </video>
+
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <a href="#" class="logo">
+        <img src="QLOGO-removebg-preview.png" alt="Quotify Logo" />
+      </a>
+      <nav class="menu">
+    <div class="navicons">
+  <i class="fas fa-home"></i>
+  <a href="Quotify.html" target="_parent">Home</a>
+    </div>
+    <div class="navicons">
+  <i class="fas fa-microphone"></i>
+  <a href="artists.html" target="_parent">Artists</a>
+    </div>
+    <div class="navicons">
+  <i class="fas fa-quote-right"></i>
+  <a href="#">Quotes</a>
+    </div>
+    <div class="navicons">
+  <i class="fas fa-fire"></i>
+  <a href="#">Trending</a>
+    </div>
+    <div class="navicons">
+  <i class="fas fa-heart"></i>
+  <a href="#">Favorites</a>
+    </div>
+</nav>
+    </div>
+
+    <!-- Main content -->
+    <div class="container">
+      <div class="control">
+        <i class="fa-utility-duo fa-semibold fa-forward-step"></i>
+      </div>
+    
+
+  <div class="corner">
+    <i class="fa-solid fa-circle-user"></i>
+ <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun">
+                <circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="M4.93 4.93l1.41 1.41"/><path d="M17.66 17.66l1.41 1.41"/><path d="M2 12h2"/>
+                <path d="M20 12h2"/><path d="M4.93 19.07l1.41-1.41"/><path d="M17.66 6.34l1.41-1.41"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon">
+                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+            </button>
+    </div>
+</div>
+  </div>
+
+
+    <script src="Quotify.js"></script>
+</body>
+</html>
